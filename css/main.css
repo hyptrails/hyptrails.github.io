@@ -9,15 +9,33 @@ a.anchor {
 	visibility: hidden;
 }
 
-div.publication {
-	margin-bottom: 10px;
+.publications ul {
+	margin-top: 20px;
 }
 
-div.publication .details {
-	padding-top: 10px;
-	padding-left: 10px;
+li {
+	padding-bottom: 20px;
+	list-style: none;
+}
+
+.contributors .desc {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
 }
 
 img.logo {
 	width: 100px;
+}
+
+img.logo.koblenz {
+	width: 200px;
+}
+
+img.logo.tugraz {
+	width: 150px;
+}
+
+img.logo.l3s {
+	width: 80px;
 }

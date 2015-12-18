@@ -19,7 +19,7 @@ layout: default
 	<p class="lead">A collection of resources around HypTrails.</p>
 	<p>
 		<ul>
-			<li><a href="https://github.com/psinger/HypTrails">Basic implementation</a></li>
+			<li><a href="https://github.com/psinger/HypTrails">Implementation</a></li>
 			<li><a href="http://nbviewer.ipython.org/github/psinger/HypTrails/blob/master/tutorial/hyptrails_tutorial.ipynb">Tutorial</a></li>
 		</ul>
 	</p>
@@ -31,13 +31,32 @@ layout: default
 		<h1>Publications</h1>
 	</div>
 	<p class="lead">A collection of publications concerning HypTrails.</p>
-	<div class="publication">
+	
+	<div class="publications">
 		Introduction of the HypTrails method:<br/>
-		<div class="details">
-			<b>Philipp Singer, Denis Helic, Andreas Hotho, Markus Strohmaier</b><br/>
-			<a href="https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwigyv-Cg-PJAhVOhhoKHf8dC2cQFgguMAE&url=http%3A%2F%2Fwww.www2015.it%2Fdocuments%2Fproceedings%2Fproceedings%2Fp1003.pdf&usg=AFQjCNHbQQXmNK8yJeHo5Zav6endQDKInw&sig2=Ya-rY6p135WXns2ZFYCwew">HypTrails: A Bayesian Approach for Comparing Hypotheses About Human Trails on the Web</a><br/>
-			<i>Proceedings of the 24th International Conference on World Wide Web, 2015</i>
-		</div>
+		<ul>
+			<li class="details">
+				<b>Philipp Singer, Denis Helic, Andreas Hotho, Markus Strohmaier</b><br/>
+				<a href="https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwigyv-Cg-PJAhVOhhoKHf8dC2cQFgguMAE&url=http%3A%2F%2Fwww.www2015.it%2Fdocuments%2Fproceedings%2Fproceedings%2Fp1003.pdf&usg=AFQjCNHbQQXmNK8yJeHo5Zav6endQDKInw&sig2=Ya-rY6p135WXns2ZFYCwew">HypTrails: A Bayesian Approach for Comparing Hypotheses About Human Trails on the Web</a><br/>
+				<i>Proceedings of the 24th International Conference on World Wide Web, 2015</i>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="publications">
+		Applications:<br/>
+		<ul>
+			<li class="details">
+				<b>Martin Becker and Kathrin Borchert and Matthias Hirth and Hauke Mewes and Andreas Hotho, Phuoc Tran-Gia</b><br/>
+				<a href="http://www.is.informatik.uni-wuerzburg.de/mitarbeiter/becker_martin/?tx_extbibsonomycsl_publicationlist%5Bcontroller%5D=Document&tx_extbibsonomycsl_publicationlist%5BintraHash%5D=a17a058eb6dc24f8988b647cc02a3618&tx_extbibsonomycsl_publicationlist%5BfileName%5D=2015_Microtrails_final_ACM-update.pdf&tx_extbibsonomycsl_publicationlist%5BuserName%5D=becker&tx_extbibsonomycsl_publicationlist%5Bpreview%5D=LARGE&tx_extbibsonomycsl_publicationlist%5Baction%5D=download&cHash=a6367d15229f3dc7e3cb4ddcba7dd5de">MicroTrails: comparing hypotheses about task selection on a crowdsourcing platform</a><br/>
+				<i>Proceedings of the 15th International Conference on Knowledge Technologies and Data-driven Business, 2015</i>
+			</li>
+			<li class="details">
+				<b>Martin Becker , Philipp Singer, Florian Lemmerich, Andreas Hotho, Denis Helic, Markus Strohmaier</b><br/>
+				<a href="">Photowalking the city: comparing hypotheses about urban photo trails on Flickr</a><br/>
+				<i>Social Informatics, Volume 9471 of the series Lecture Notes in Computer Science, 2015</i>
+			</li>
+		</ul>
 	</div>
 </div>
 
@@ -47,11 +66,15 @@ layout: default
 		<h1>Contributors</h1>
 	</div>
 	<p class="lead">Work around HypTrails is a collaboration of several organizations.</p>
-	<p>
-		<img class="logo" src="{{ "/img/contributors/dmir.png" | prepend: site.baseurl }}">
-		<img class="logo"src="{{ "/img/contributors/l3s.png" | prepend: site.baseurl }}">
-		<img class="logo"src="{{ "/img/contributors/gesis.png" | prepend: site.baseurl }}">
-	</p>
+	<div class="contributors">
+		<ul>
+			<li><div><img class="logo gesis"src="{{ "/img/contributors/gesis.png" | prepend: site.baseurl }}"><div class="desc">Leibniz Institut for Social Sciences<br/>Collogne</br>Germany</div></div></li>
+			<li><div><img class="logo tugraz"src="{{ "/img/contributors/tugraz.png" | prepend: site.baseurl }}"><div class="desc">Technical University Graz<br/>Graz</br>Austria</div></div></li>
+			<li><div><img class="logo dmir"src="{{ "/img/contributors/dmir.png" | prepend: site.baseurl }}"><div class="desc">DMIR Group, University of Würzburg<br/>Würzburg</br>Germany</div></div></li>
+			<li><div><img class="logo koblenz"src="{{ "/img/contributors/koblenz.png" | prepend: site.baseurl }}"><div class="desc">University of Koblenz-Landau<br/>Mainz</br>Germany</div></div></li>
+			<li><div><img class="logo l3s"src="{{ "/img/contributors/l3s.png" | prepend: site.baseurl }}"><div class="desc">L3S Research Center<br/>Hanover</br>Germany</div></div></li>
+		</ul>
+	</div>
 </div>
 
 <div class="container">
@@ -60,6 +83,14 @@ layout: default
 		<h1>Contact</h1>
 	</div>
 	<p class="lead">Contact us for further information.</p>
-	<p>
-	</p>
+	<ul>
+	<li>
+		Philipp Singer<br/>
+		<a href="mailto:philipp.singer@gesis.org">philipp.singer@gesis.org</a>
+	</li>
+	<li>
+		Martin Becker<br/>
+		<a href="mailto:becker@informatik.uni-wuerzburg.de">becker@informatik.uni-wuerzburg.de</a>
+	</li>
+	</ul>
 </div>
